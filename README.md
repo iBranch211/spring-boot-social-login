@@ -1,7 +1,7 @@
 # Spring Boot Social Login(OAuth2,Oidc,Jwt)
 > This is spring boot social login jwt auth example.Gmail & Hotmail Authentication
 >
-<img src="https://github.com/susimsek/spring-boot-social-login/blob/master/images/spring-boot-social-login.png" alt="Spring Boot Social Login Example" width="100%" height="100%"/> 
+<img src="https://github.com/susimsek/spring-boot-social-login/blob/main/images/spring-boot-social-login.png" alt="Spring Boot Social Login Example" width="100%" height="100%"/> 
 
 ## Prerequisites
 
@@ -37,4 +37,4 @@ docker-compose up -d
 
 http://localhost:9090/api
 
-<img src="https://github.com/susimsek/spring-boot-social-login/blob/master/images/swagger.png" alt="Spring Boot Swagger" width="100%" height="100%"/>
+<img src="https://github.com/susimsek/spring-boot-social-login/blob/main/images/swagger.png" alt="Spring Boot Swagger" width="100%" height="100%"/>
