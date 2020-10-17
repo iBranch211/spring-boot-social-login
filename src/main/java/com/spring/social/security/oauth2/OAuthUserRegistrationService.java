@@ -82,6 +82,9 @@ public class OAuthUserRegistrationService {
             case "azure":
                 provider = Provider.PROVIDER_AZURE;
                 break;
+            case "github":
+                provider = Provider.PROVIDER_GITHUB;
+                break;
             default:
                 provider = null;
                 break;

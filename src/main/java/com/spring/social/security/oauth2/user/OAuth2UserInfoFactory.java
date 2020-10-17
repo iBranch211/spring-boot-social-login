@@ -15,6 +15,9 @@ public class OAuth2UserInfoFactory {
         else if(registrationId.equalsIgnoreCase("azure")) {
             return new AzureOAuth2UserInfo(attributes);
         }
+        else if(registrationId.equalsIgnoreCase("github")) {
+            return new GithubOAuth2UserInfo(attributes);
+        }
         else {
             throw new OAuth2AuthenticationProcessingException("Sorry! Login with " + registrationId + " is not supported yet.");
         }
